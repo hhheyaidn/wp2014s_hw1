@@ -73,4 +73,22 @@ padding : 2em;
 .latest{
 margin : 1px;
 }
+.list{
+	font-size : 1.5em;
+	font-family:  '·L³n¥¿¶ÂÅé', 'LiHei Pro', sans-serif;
+margin:0.5em;
+}
+
+.each a{
+	font-size:1.3em;
+padding:2em;
+margin :1em;
+color:brown;
+}
+
+footer{
+	padding-top: 1px;
+clear: both;
+       text-align :center;
+}
 
