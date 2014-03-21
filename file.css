@@ -1,63 +1,76 @@
 body{
-  font-family:  '微軟正黑體', sans-serif;
-    text-decoration: none;
-      position:relative;
-        z-index:-100;
-	  width : 1360px;
-	    background:
-	        url(http://subtlepatterns.com/patterns/dimension.png)     repeat;
-		}
+position: relative
+		  font-family:  '微軟正黑體', sans-serif;
+	  text-decoration: none;
+position:relative;
+	 z-index:-100;
+width : 1360px;
+background:
+	url(http://subtlepatterns.com/patterns/dimension.png)     repeat;
+}
 
-		header{
-		  margin-bottom : 1em;
-		    border-radius: 0.5em;
-		      padding :0.5em;
-		        background:
-			    url(http://subtlepatterns.com/patterns/moulin.png);
-			    }
+a{
+	text-decoration : none;
+}
 
-			    header a{
-			      color : gray;
-			      }
+li{
+	list-style:none;
+}
 
-			      .three{
-			        float :right;
-				  color:white;
-				  }
+header{
+	margin-bottom : 1em;
+	border-radius: 0.5em;
+padding :0.5em;
+background:
+	 url(http://subtlepatterns.com/patterns/moulin.png);
+}
 
-				  header h2{
-				    font-size:3em;
-				      color: rgb(180,180,180);
-				      }
+header a{
+color : gray;
+}
 
-				      .box {  
-				        float: left;
-					  padding: 1em;
-					    background-color: gray;
-					      border-radius: 0.5em; 
-					        text-decoration: none;
-						}
+.three{
+float :right;
+color:white;
+}
 
-						.subtitle{
-						  list-style : none;
-						    font-size : 2em;
-						      
-						      }
+header h2{
+	font-size:3em;
+color: rgb(180,180,180);
+}
 
-						      .subdetail{
-						        line-height: 3;
-							  font-family:  '微軟正黑體', 'LiHei Pro', sans-serif;
-							    text-align: center;
-							      margin : 0.5em;
-							        text-decoration : none;
-								  color : white;
-								  }
+.box {  
+float: left;
+padding: 1em 0.5em 8.5em;
+	 background-color: gray;
+	 border-radius: 0.5em; 
+}
 
-								  .link{
-								    float: right;
-								      padding: 1em;
-								        background-color: gray;
-									  border-radius: 0.5em; 
-									    text-decoration: none;
-									        list-style : none;
-										}
+.subtitle{
+	list-style : none;
+	font-size : 1.5em;
+
+}
+
+.subdetail{
+	line-height: 3;
+	font-family:  '微軟正黑體', 'LiHei Pro', sans-serif;
+	text-align: center;
+margin : 0.5em;
+color : white;
+}
+
+.link{
+position:absolute;
+right:0;
+top:160;
+margin :2em;
+padding : 2em;
+	  background-color: #D4E6F8;
+	  border-radius: 0.5em; 
+}
+
+.latest{
+margin : 1px;
+}
+
